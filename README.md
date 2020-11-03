@@ -15,3 +15,8 @@ Repeat for each piece of data:
 - NI number
 - Course applied
 - Most recent education
+
+You can then print the desired data with an f-string
+```
+print(f"Hello, {first_name})
+```
