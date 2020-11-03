@@ -11,6 +11,8 @@ middle_name = input("What is your middle name? ").lower().capitalize()
 
 last_name = input("What is your last name? ").lower().capitalize()
 
+age = int(input("How old are you? "))
+
 address = input("What is the first line of your address? ").lower().title()
 
 postcode = input("Please enter your postcode: ").upper()
@@ -32,6 +34,8 @@ while True:
         print(first_name)
     elif what_to_print == "last name":
         print(last_name)
+    elif what_to_print == "age":
+        print(age)
     elif what_to_print == "address":
         print(address)
     elif what_to_print == "postcode":
